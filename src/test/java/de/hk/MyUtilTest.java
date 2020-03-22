@@ -2,17 +2,15 @@ package de.hk;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+
 public class MyUtilTest {
 
     @Test
-    public void testReadAndExtendProgramId() {
+    public void testReadAndExtendProgramId() throws IOException {
 
-        MyUtil.readAndExtendProgramId();
+        System.out.println(MyUtil.readAndExtendProgramId());
 
     }
 
-    @Test
-    public void testExtendProgramId() {
-        System.out.println(MyUtil.extendProgramId("PROGRAM-ID jamei"));
-    }
 }
