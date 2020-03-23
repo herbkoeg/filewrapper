@@ -6,11 +6,9 @@ import java.io.IOException;
 
 public class MyUtilTest {
 
+
     @Test
-    public void testReadAndExtendProgramId() throws IOException {
-
-        System.out.println(MyUtil.readAndExtendProgramId());
-
+    public void test() throws IOException {
+        MyUtil.correctDirectory();
     }
-
 }
